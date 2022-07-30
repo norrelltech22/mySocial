@@ -1,1 +1,1 @@
-# "MySocial social media app"
+# "MySocial a social media app"
