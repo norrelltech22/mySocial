@@ -2,23 +2,31 @@
 <html lang="en">
     <head>
         <title>MySocial</title>
+        <link rel="stylesheet" href="index.css"/>
     </head>
     <body>
         <header>
-            <div class="header">
-                <h1 id="mysocial">MySocial</h1>
-                <div class="login-password">
-                    <form id="login" action="" method="get">
-                        <label for="username/email">Username or Email: </label>
-                        <input type="username/email" name="username" id="username/email" required>
-                    </form>
-                    <form id="password" action="" method="get">
-                        <label id="password">Password:</label>
-                        <input type="password" required id="password" placeholder="password">
-                    </form>
-                    <button id="login" type="submit">Sign In</button>
+            <div>
+                <div class="h">
+                    <h1>MySocial</h1>
                 </div>
-
+                <form id="login_form">
+                    <div class="form">
+                        <div class="user">
+                            <label class="users" aria-label="username or email"> 
+                                <input type="email" required id="email" placeholder="username or email"/> Username or Email:
+                            </label>
+                        </div>
+                        <div class="password">
+                            <label class="pass" aria-label="pass">
+                                <input type="password" required id="pass" placeholder="password"/> Password:
+                            </label>
+                        </div>   
+                        <div class="login_button">
+                            <button class="login" type="submit">Log In</button>
+                        </div> 
+                    </div>                
+                </form>
             </div>
         </header>
     </body>
