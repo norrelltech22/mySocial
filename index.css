@@ -34,6 +34,7 @@ div.h {
     width: fit-content;
     height: fit-content;
     margin-top: 300px;
+    background-color: red;
 }
 
 .form {
@@ -47,4 +48,64 @@ div.h {
 
 #email {
     font-size: 15px;
+}
+
+.h2 {
+    position: relative;
+    margin-top: -400px;
+    float: right;
+    text-align: center;
+    background-color: green;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+.firstname {
+    padding-bottom: 10px;
+}
+
+.lastname {
+    padding-bottom: 10px;
+}
+
+.signup_email {
+    padding-bottom: 10px;
+}
+
+.signuppassword {
+    padding-bottom: 10px;
+    padding-right: 80px;
+}
+
+.reenterpassword {
+    padding-bottom: 10px;
+}
+
+div.firstname label{
+    padding-right: 30px;
+}
+
+div.lastname label {
+    padding-right: 31px;
+}
+
+div.signup_email{
+    padding-right: 130px;
+}
+
+.sign_up{
+    padding-top: 50px;
+    font-size: 25px;
+}
+
+#first {
+    font-size: 17px;
+    margin-right: 0px;
+}
+
+#last {
+    font-size: 17px;
+    margin-right: 0px;
 }
